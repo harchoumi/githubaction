@@ -14,8 +14,7 @@ jobs:
           node-version: 'lts/*'
       - name: run test
         shell: bash
-        run: |
-          npm install
+        run: npm install
   run-npm-test:
     needs: run-npm-install
     runs-on: ubuntu-latest
