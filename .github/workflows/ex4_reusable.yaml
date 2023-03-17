@@ -1,4 +1,4 @@
-name: reusable workflow
+name: reusable workflow run test
 on: 
   workflow_call:
     inputs:
