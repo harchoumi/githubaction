@@ -1,4 +1,4 @@
-name: interact with Github API
+name: Node version in variable
 on:
   workflow_dispatch:
   pull_request:
